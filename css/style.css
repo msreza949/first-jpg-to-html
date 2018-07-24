@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+}
+body{
+	background: url('../img/bg/2.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'Merienda', cursive;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.login-form {
+	width: 500px;
+	margin: 15% auto;
+	border-radius: 5px;
+	height: 310px;
+	border: 1px solid #00c0ff;
+	box-shadow: 1px 1px 12px #00e4ff;
+}
+.login-form .close {
+	float: right;
+	position: relative;
+	font-size: 17px;
+	background: #0c0c0c;
+	border-radius: 50%;
+	padding: 10px;
+	color: #fff;
+	top: -15px;
+	left: 10px;
+	font-weight: 700;
+}
+.login-form .login-left {
+	width: 50%;
+	float: left;
+	border-right: 1px solid #00c0ff;
+	box-shadow: 1px 0px 10px #00c0ff;
+	padding: 0 10px 0 0;
+}
+.login-form .login-left img{
+    width: 15px;
+    height: 15px;
+    top: 3px;
+}
+.login-form .login-left h1{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 0 5px 15px;
+}
+.login-form .login-left form{
+	width: 95%;
+    padding: 0 10px;
+}
+.login-form .login-left form .form-control {
+	padding: 8px 6px;
+	width: 94%;
+	margin-top: 10px;
+	background-color: #12101099;
+	color: #fff;
+	border: 2px solid #272626;
+	border-radius: 5px;
+	text-indent: 30px;
+}
+.login-form .login-left form img {
+	position: relative;
+	top: 42px;
+	left: 5px;
+	margin-left: 5px;
+}
+.login-form .login-left form .forgot-username, .login-form .login-left form .forget-link {
+	float: right;
+	margin: 0;
+	font-size: 11px;
+	color: #fff;
+	padding: 5px 0 0 0px;
+	display: block;
+	text-decoration: none;
+}
+.login-form .login-left form .checkbox {
+	display: block;
+	margin-top: 65px;
+}
+.login-form .login-left .checkbox input {
+	box-shadow: 1px 3px 10px #00c9ff;
+}
+
+.login-form .login-left form .checkbox span {
+	font-size: 11px;
+	color: #fff;
+	margin-left: 5px;
+	position: relative;
+	top: -3px;
+}
+.login-form .login-left form .login-btn {
+	display: block;
+	float: right;
+	padding: 3px 13px 3px 13px;
+	background: transparent;
+	color: #f65656;
+	text-align: center;
+	position: relative;
+	top: -30px;
+	text-transform: uppercase;
+	border: 1px solid red;
+	box-shadow: 1px 1px 8px red;
+	font-size: 16px;
+}
+.login-form .login-right {
+	width: 47%;
+	float: left;
+}
+.login-form .login-right .social {
+	margin: 35px 0px 0px 20px;
+}
+.login-form .login-right a {
+	font-size: 14px;
+	float: left;
+	margin-top: 5px;
+	width: 90%;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	color: #c6bdbd;
+}
+.login-form .login-right .sign-twitter {
+	border: 1px solid #0fc3f3;
+	box-shadow: 1px 0px 2px #00e4ff;
+	border-radius: 5px;
+}
+.login-form .login-right .sign-facebook {
+	border: 1px solid #0f93f3;
+	box-shadow: 1px 0px 5px #0093ff;
+	border-radius: 5px;
+}
+.login-form .login-right .sign-google {
+	border: 1px solid #f3370f;
+	box-shadow: 1px 0px 5px #ff2400;
+	border-radius: 5px;
+}
+.login-form .login-right .sign-linkedin {
+	border: 1px solid #0f9bf3;
+	box-shadow: 1px 0px 5px #00f6ff;
+	border-radius: 5px;
+}
+.login-form .login-right a span {
+	
+	color: #fff;
+}
+.login-form .login-right img {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 3px;
+}
